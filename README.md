@@ -4,13 +4,13 @@ Custom built ConvLSTM cell in Tensorflow and Pytorch
 
 Models inspired by [Convolutional LSTM](https://arxiv.org/pdf/1506.04214.pdf)
 
-* conv2dlstm_cell.py
+* pt_conv2dlstm_cell.py
 ```
-Initializes the weights to be used and the forward() method which performs ConvLSTM equations at inference time
+PyTorch implementation of ConvLSTM initializes weights and defines forward method for inference
 ```
-* conv2dlstm_cell.py
+* tf_conv2dlstm_cell.py
 ```
-Initializes static graph and prepares a cyclic graph and performces ConvLSTM equations at inference time
+Tensorflow implementation of ConvLSTM static graph and prepares equations for inference time
 ```
 
 * pytorch_model.py
