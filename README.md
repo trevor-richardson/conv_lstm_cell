@@ -4,7 +4,7 @@ Custom built ConvLSTM cell in Tensorflow and Pytorch <br/>
 
 Models inspired [Convolutional LSTM](https://arxiv.org/pdf/1506.04214.pdf)
 
-<img src="https://github.com/trevor-richardson/collision_avoidant_reinforcement/blob/master/visualizations/deep_intrinsic_rl.png" width="950">
+<img src="https://github.com/trevor-richardson/conv_lstm_cell/blob/master/math/convlstm.png" width="750">
 
 
 PyTorch implementation of ConvLSTM initializes weights and defines forward method for inference
