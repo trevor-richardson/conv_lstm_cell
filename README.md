@@ -9,6 +9,8 @@ Models are inspired by [Convolutional LSTM](https://arxiv.org/pdf/1506.04214.pdf
 
 The code is not meant to be executable. This code is an outline for how to implement these types of models. For an example of a ConvLSTM that runs see my [collision anticipation](https://github.com/trevor-richardson/collision_anticipation) repo.
 
+## Relevant Files
+
 PyTorch implementation of ConvLSTM initializes weights and defines forward method for inference
 ```
 see pt_conv2dlstm_cell.py
@@ -33,8 +35,7 @@ see tensorflow_model.py
 ```
 
 ### Installing
-
-
+I use the following packages when using the above ConvLSTM models in a neural network.
 * numpy
 * python3
 * PyToch
