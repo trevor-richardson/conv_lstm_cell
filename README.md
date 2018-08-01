@@ -1,11 +1,13 @@
 # conv_lstm_cell
 
-Custom built ConvLSTM cell in Tensorflow and Pytorch <br/>
+This repository implements a custom built ConvLSTM cell in Tensorflow and Pytorch. <br/>
 
-Models inspired [Convolutional LSTM](https://arxiv.org/pdf/1506.04214.pdf)
+Models are inspired by [Convolutional LSTM](https://arxiv.org/pdf/1506.04214.pdf)
 
 <img src="https://github.com/trevor-richardson/conv_lstm_cell/blob/master/math/convlstm.png" width="750">
 
+
+The code is not meant to be executable. This code is an outline for how to implement these types of models. For an example of a ConvLSTM that runs see my [collision anticipation](https://github.com/trevor-richardson/collision_anticipation) repo.
 
 PyTorch implementation of ConvLSTM initializes weights and defines forward method for inference
 ```
@@ -29,3 +31,11 @@ Defines static graph for training that uses tf_conv2dlstm_cell
 ```
 see tensorflow_model.py
 ```
+
+### Installing
+
+
+* numpy
+* python3
+* PyToch
+* Tensorflow
