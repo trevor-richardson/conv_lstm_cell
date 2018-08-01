@@ -2,7 +2,7 @@
 
 This repository implements a custom built ConvLSTM cell in Tensorflow and Pytorch. <br/>
 
-Models are inspired by [Convolutional LSTM](https://arxiv.org/pdf/1506.04214.pdf)
+The model was first introduced in [Convolutional LSTM](https://arxiv.org/pdf/1506.04214.pdf).
 
 <img src="https://github.com/trevor-richardson/conv_lstm_cell/blob/master/math/convlstm.png" width="750">
 
