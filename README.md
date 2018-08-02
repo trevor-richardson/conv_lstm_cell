@@ -7,7 +7,7 @@ The model was first introduced in [Convolutional LSTM](https://arxiv.org/pdf/150
 <img src="https://github.com/trevor-richardson/conv_lstm_cell/blob/master/math/convlstm.png" width="750">
 
 
-The code is not meant to be executable. This code is an outline for how to implement these types of models. For an example of a ConvLSTM that runs see my [collision anticipation](https://github.com/trevor-richardson/collision_anticipation) repo.
+The code is not meant to be executable. This code is an outline of how to implement these types of models. For an example of a ConvLSTM that runs see my [collision anticipation](https://github.com/trevor-richardson/collision_anticipation) repo.
 
 ## Relevant Files
 
@@ -17,19 +17,19 @@ see pt_conv2dlstm_cell.py
 ```
 <br/>
 
-Tensorflow implementation of ConvLSTM static graph and prepares equations for inference time
+Tensorflow implementation of ConvLSTM static graph
 ```
 see tf_conv2dlstm_cell.py
 ```
 <br/>
 
-Defining the model for training that uses pt_conv2dlstm_cell input normally image
+PyTorch implementation of deep neural network containing a ConvLSTM Cell
 ```
 see pytorch_model.py
 ```
 <br/>
 
-Defines static graph for training that uses tf_conv2dlstm_cell
+Tensorflow implementation of deep neural network containing a ConvLSTM Cell
 ```
 see tensorflow_model.py
 ```
