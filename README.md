@@ -11,7 +11,7 @@ The code is not meant to be executable. This code is an outline of how to implem
 
 ## Relevant Files
 
-PyTorch implementation of ConvLSTM initializes weights and defines forward method for inference
+PyTorch implementation of ConvLSTM that initializes weights and defines forward method for inference
 ```
 see pt_conv2dlstm_cell.py
 ```
@@ -35,7 +35,7 @@ see tensorflow_model.py
 ```
 
 ### Installing
-I use the following packages when using the above ConvLSTM models in a neural network.
+Packages needed to run the code include:
 * numpy
 * python3
 * PyToch
